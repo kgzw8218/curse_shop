@@ -175,3 +175,7 @@ LOGGING = {
         # },
     }
 }
+
+REST_FRAMEWORK = {
+    'EXCEPTION_HANDLER': 'curse_shop.utils.exceptions.custom_exception_handler',
+}
